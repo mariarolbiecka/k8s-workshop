@@ -68,6 +68,13 @@ kube-scheduler-ip-10-0-129-147            1/1     Running   0          3h2m
 storage-provisioner                       1/1     Running   0          3h2m
 ```
 
+Check Node Components - Container Runtime (Docker) and kubelet.
+
+```bash
+sudo systemctl status docker
+sudo systemctl status kubelet
+```
+
 <a name="configure-kubectl"></a>
 ## 2. Configure kubectl.
 ```bash
